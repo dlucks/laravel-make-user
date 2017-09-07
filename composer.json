@@ -1,0 +1,20 @@
+{
+  "name": "dlucks/laravel-make-user",
+  "type": "library",
+  "description": "Laravel package for creating users by Artisan command",
+  "homepage": "https://github.com/dlucks/laravel-make-user",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Lucks"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MakeUser\\": "src"
+    }
+  }
+}
