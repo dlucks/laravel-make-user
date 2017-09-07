@@ -4,7 +4,11 @@ This is a simple Laravel package to create users by Artisan command.
 
 ## Installation
 
-TODO: Load package via composer.
+Install package via composer:
+
+```
+composer require dlucks/laravel-make-user
+```
 
 Register service provider in `config/app.php` of your project:
 
