@@ -10,7 +10,9 @@ Install package via composer:
 composer require dlucks/laravel-make-user
 ```
 
-Register service provider in `config/app.php` of your project:
+Register service provider in `config/app.php` of your project (you can skip
+this step when using Laravel 5.5 or higher, because of the package discovery
+feature):
 
 ```php
 'providers' => [
