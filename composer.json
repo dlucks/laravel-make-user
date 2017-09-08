@@ -16,5 +16,12 @@
     "psr-4": {
       "MakeUser\\": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MakeUser\\Providers\\MakeUserServiceProvider"
+      ]
+    }
   }
 }
